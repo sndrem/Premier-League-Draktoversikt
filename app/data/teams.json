@@ -1,0 +1,261 @@
+{	"MAU":
+		{
+			"teamName": "Manchester United",
+			"arena": "Old Trafford",
+			"homePrimaryColor": "Rød",
+			"homeSecondaryColor": "Hvit",
+			"awayPrimaryColor": "Hvit",
+			"awaySecondaryColor": "Svart",
+			"keeperColorPrimary": "Grønn",
+			"keeperColorSecondary": "Svart",
+			"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/735.png",
+			"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/735.png"
+		}
+	,
+	"MAC":
+	{
+		"teamName": "Manchester City",
+		"arena": "Etihad Stadium",
+		"homePrimaryColor": "Lyseblå",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Svart",
+		"awaySecondaryColor": "Lyseblå",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/722.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/722.png"
+	},
+	"WHU":
+	{
+		"teamName": "West Ham",
+		"arena": "Boleyn Ground",
+		"homePrimaryColor": "Vinrød",
+		"homeSecondaryColor": "Lyseblå",
+		"awayPrimaryColor": "Lyseblå",
+		"awaySecondaryColor": "Vinrød",
+		"keeperColorPrimary": "Gul",
+		"keeperColorSecondary": "Grønn",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/724.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/724.png"
+	},
+	"ARS":
+	{
+		"teamName": "Arsenal",
+		"arena": "The Emirates",
+		"homePrimaryColor": "Rød",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Gul",
+		"awaySecondaryColor": "Mørkeblå",
+		"keeperColorPrimary": "Svart",
+		"keeperColorSecondary": "Grønn",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/738.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/738.png"
+	},
+	"EVE":
+	{
+		"teamName": "Everton",
+		"arena": "Goodison Park",
+		"homePrimaryColor": "Blå",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Hvit",
+		"awaySecondaryColor": "Svart",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Gul",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/730.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/730.png"
+	},
+	"TOT":
+	{
+		"teamName": "Tottenham",
+		"arena": "White Hart Lane",
+		"homePrimaryColor": "Hvit",
+		"homeSecondaryColor": "Mørkeblå",
+		"awayPrimaryColor": "Lyseblå",
+		"awaySecondaryColor": "Mørkeblå",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Gul",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/740.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/740.png"
+	},
+	"CRY":
+	{
+		"teamName": "Crystal Palace",
+		"arena": "Selhurst Park",
+		"homePrimaryColor": "Rød",
+		"homeSecondaryColor": "Blå",
+		"awayPrimaryColor": "Hvit",
+		"awaySecondaryColor": "Rød",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Gul",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/767.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/767.png"
+	},
+	"LEI":
+	{
+		"teamName": "Leicester",
+		"arena": "King Power Stadium",
+		"homePrimaryColor": "Blå",
+		"homeSecondaryColor": "Gul",
+		"awayPrimaryColor": "Svart",
+		"awaySecondaryColor": "Hvit",
+		"keeperColorPrimary": "Svart",
+		"keeperColorSecondary": "Grønn",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/731.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/731.png"
+	},
+	"LIV":
+	{
+		"teamName": "Liverpool",
+		"arena": "Anfield",
+		"homePrimaryColor": "Rød",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Hvit",
+		"awaySecondaryColor": "Rød",
+		"keeperColorPrimary": "Lilla",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/733.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/733.png"
+	},
+	"SOU":
+	{
+		"teamName": "Southampton",
+		"arena": "St. Mary's Stadium",
+		"homePrimaryColor": "Rød",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Grønn",
+		"awaySecondaryColor": "Mørkeblå",
+		"keeperColorPrimary": "Gul",
+		"keeperColorSecondary": "Lilla",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/728.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/728.png"
+	},
+	"SWA":
+	{
+		"teamName": "Swansea",
+		"arena": "Liberty Stadium",
+		"homePrimaryColor": "Hvit",
+		"homeSecondaryColor": "Gul",
+		"awayPrimaryColor": "Grønn",
+		"awaySecondaryColor": "Mørkeblå",
+		"keeperColorPrimary": "Lyseblå",
+		"keeperColorSecondary": "Gul",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/791.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/791.png"
+	},
+	"NOR":
+	{
+		"teamName": "Norwich",
+		"arena": "Carrow Road",
+		"homePrimaryColor": "Gul",
+		"homeSecondaryColor": "Grønn",
+		"awayPrimaryColor": "Grønn",
+		"awaySecondaryColor": "Gul",
+		"keeperColorPrimary": "Svart",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/769.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/769.png"
+	},
+	"WAT":
+	{
+		"teamName": "Watford",
+		"arena": "Vicarage Road",
+		"homePrimaryColor": "Gul",
+		"homeSecondaryColor": "Svart",
+		"awayPrimaryColor": "Svart",
+		"awaySecondaryColor": "Hvit",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/781.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/781.png"
+	},
+	"CHE":
+	{
+		"teamName": "Chelsea",
+		"arena": "Stamford Bridge",
+		"homePrimaryColor": "Blå",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Hvit",
+		"awaySecondaryColor": "Blå",
+		"keeperColorPrimary": "Lyseblå",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/723.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/723.png"
+	},
+	"WBA":
+	{
+		"teamName": "West Bromwich",
+		"arena": "The Hawthorns",
+		"homePrimaryColor": "Hvit",
+		"homeSecondaryColor": "Mørkeblå",
+		"awayPrimaryColor": "Mørkerød",
+		"awaySecondaryColor": "Svart",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/783.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/783.png"
+	},
+	"BOU":
+	{
+		"teamName": "Bournemouth",
+		"arena": "Vitality Stadium",
+		"homePrimaryColor": "Rød",
+		"homeSecondaryColor": "Svart",
+		"awayPrimaryColor": "Blå",
+		"awaySecondaryColor": "Svart",
+		"keeperColorPrimary": "Mørkeblå",
+		"keeperColorSecondary": "Grønn",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/788.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/788.png"
+	},
+	"STO":
+	{
+		"teamName": "Stoke",
+		"arena": "Britannia Stadium",
+		"homePrimaryColor": "Rød",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Svart",
+		"awaySecondaryColor": "Grønn",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/794.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/794.png"
+	},
+	"AVI":
+	{
+		"teamName": "Aston Villa",
+		"arena": "Villa Park",
+		"homePrimaryColor": "Vinrød",
+		"homeSecondaryColor": "Lyseblå",
+		"awayPrimaryColor": "Gul",
+		"awaySecondaryColor": "Svart",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Gul",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/732.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/732.png"
+	},
+	"SUN":
+	{
+		"teamName": "Sunderland",
+		"arena": "Stadium of Light",
+		"homePrimaryColor": "Rød",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Grønn",
+		"awaySecondaryColor": "Gul",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Gul",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/737.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/737.png"
+	},
+	"NEW":
+	{
+		"teamName": "Newcastle",
+		"arena": "St. James' Park",
+		"homePrimaryColor": "Svart",
+		"homeSecondaryColor": "Hvit",
+		"awayPrimaryColor": "Blå",
+		"keeperColorPrimary": "Grønn",
+		"keeperColorSecondary": "Svart",
+		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/737.png",
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/737.png"
+	}
+}
