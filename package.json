@@ -1,7 +1,9 @@
 {
   "name": "draktoversikt",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "firebase": "^2.3.1"
+  },
   "repository": {},
   "devDependencies": {
     "cheerio": "^0.19.0",

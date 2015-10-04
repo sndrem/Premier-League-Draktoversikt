@@ -1,0 +1,52 @@
+[
+    {
+        "homeTeam": "Tottenham",
+        "awayTeam": "Liverpool",
+        "time": "13.45"
+    },
+    {
+        "homeTeam": "Chelsea",
+        "awayTeam": "Aston Villa",
+        "time": "16.00"
+    },
+    {
+        "homeTeam": "Crystal Palace",
+        "awayTeam": "West Ham",
+        "time": "16.00"
+    },
+    {
+        "homeTeam": "Everton",
+        "awayTeam": "Man. United",
+        "time": "16.00"
+    },
+    {
+        "homeTeam": "Man. City",
+        "awayTeam": "Bournemouth",
+        "time": "16.00"
+    },
+    {
+        "homeTeam": "Southampton",
+        "awayTeam": "Leicester",
+        "time": "16.00"
+    },
+    {
+        "homeTeam": "West Bromwich",
+        "awayTeam": "Sunderland",
+        "time": "16.00"
+    },
+    {
+        "homeTeam": "Watford",
+        "awayTeam": "Arsenal",
+        "time": "18.30"
+    },
+    {
+        "homeTeam": "Newcastle",
+        "awayTeam": "Norwich",
+        "time": "17.00"
+    },
+    {
+        "homeTeam": "Swansea",
+        "awayTeam": "Stoke",
+        "time": "21.00"
+    }
+]
