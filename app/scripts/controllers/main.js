@@ -24,12 +24,14 @@ angular.module('draktoversiktApp')
       $scope.allTeams = false;
       $scope.selectedTeams = [];
       var selectedTeams = [];
-      console.log(homeTeam == 'Everton');
+      
+      homeTeam = checkTeam(homeTeam);
+      awayTeam = checkTeam(awayTeam);
 
       for(var i in teams) {
-        if(teams[i].teamName == homeTeam) {
+        if(teams[i].teamName === homeTeam) {
           selectedTeams.push(teams[i]);
-        } else if (teams[i].teamName == awayTeam) {
+        } else if (teams[i].teamName === awayTeam) {
           selectedTeams.push(teams[i]);
         }
       }
@@ -40,6 +42,11 @@ angular.module('draktoversiktApp')
   	$scope.resetTeams = function() {
   		$scope.allTeams = true;
   		$scope.selectedTeams = [];
-  	}
+  	};
+
+    function checkTeam(team) {
+      console.log(team === 'Aston Villa');
+      return team;
+    };
 
   }]);
