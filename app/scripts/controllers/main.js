@@ -10,22 +10,24 @@
 angular.module('draktoversiktApp')
   .controller('MainCtrl', ['$scope', '$firebaseArray' ,function ($scope, $firebaseArray) {
    	
-  	var ref = new Firebase("https://draktoversikt.firebaseio.com/matches");
-  	$scope.teams = $firebaseArray(ref);
+  	var ref = new Firebase("https://draktoversikt.firebaseio.com");
+  	$scope.teams = $firebaseArray(ref.child('teams'));
 
-  	var nextMatchRef = new Firebase("https://draktoversikt.firebaseio.com/nextMatches");
-  	$scope.nextMatches = $firebaseArray(nextMatchRef);
+  	
+  	$scope.nextMatches = $firebaseArray(ref.child('nextMatches'));
   	
   	console.log($scope.nextMatches);
   	$scope.allTeams = true;
 
   	$scope.getTeams = function(homeTeam, awayTeam) {
 
+      console.log(homeTeam);
+      console.log(awayTeam);
   		$scope.allTeams = false;
 
 
   		var teams = $scope.teams;
-  			var teamArray = [];
+  		var teamArray = [];
 
 
   		for(var i in teams) {
