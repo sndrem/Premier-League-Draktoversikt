@@ -9,7 +9,8 @@
 			"keeperColorPrimary": "Grønn",
 			"keeperColorSecondary": "Svart",
 			"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/735.png",
-			"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/735.png"
+			"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/735.png",
+			"code": "ARS"
 		}
 	,
 	"MAC":
@@ -23,7 +24,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/722.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/722.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/722.png",
+		"code": "MAC"
 	},
 	"WHU":
 	{
@@ -36,7 +38,8 @@
 		"keeperColorPrimary": "Gul",
 		"keeperColorSecondary": "Grønn",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/724.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/724.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/724.png",
+		"code": "WHU"
 	},
 	"ARS":
 	{
@@ -49,7 +52,8 @@
 		"keeperColorPrimary": "Svart",
 		"keeperColorSecondary": "Grønn",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/738.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/738.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/738.png",
+		"code": "ARS"
 	},
 	"EVE":
 	{
@@ -62,7 +66,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Gul",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/730.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/730.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/730.png",
+		"code": "EVE"
 	},
 	"TOT":
 	{
@@ -75,7 +80,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Gul",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/740.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/740.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/740.png",
+		"code": "TOT"
 	},
 	"CRY":
 	{
@@ -88,7 +94,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Gul",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/767.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/767.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/767.png",
+		"code": "CRY"
 	},
 	"LEI":
 	{
@@ -101,7 +108,8 @@
 		"keeperColorPrimary": "Svart",
 		"keeperColorSecondary": "Grønn",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/731.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/731.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/731.png",
+		"code": "LEI"
 	},
 	"LIV":
 	{
@@ -114,7 +122,8 @@
 		"keeperColorPrimary": "Lilla",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/733.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/733.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/733.png",
+		"code": "LIV"
 	},
 	"SOU":
 	{
@@ -127,7 +136,8 @@
 		"keeperColorPrimary": "Gul",
 		"keeperColorSecondary": "Lilla",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/728.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/728.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/728.png",
+		"code": "SOU"
 	},
 	"SWA":
 	{
@@ -140,7 +150,8 @@
 		"keeperColorPrimary": "Lyseblå",
 		"keeperColorSecondary": "Gul",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/791.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/791.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/791.png",
+		"code": "SWA"
 	},
 	"NOR":
 	{
@@ -153,7 +164,8 @@
 		"keeperColorPrimary": "Svart",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/769.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/769.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/769.png",
+		"code": "NOR"
 	},
 	"WAT":
 	{
@@ -166,7 +178,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/781.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/781.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/781.png",
+		"code": "WAT"
 	},
 	"CHE":
 	{
@@ -179,7 +192,8 @@
 		"keeperColorPrimary": "Lyseblå",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/723.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/723.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/723.png",
+		"code": "CHE"
 	},
 	"WBA":
 	{
@@ -192,7 +206,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/783.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/783.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/783.png",
+		"code": "WBA"
 	},
 	"BOU":
 	{
@@ -205,7 +220,8 @@
 		"keeperColorPrimary": "Mørkeblå",
 		"keeperColorSecondary": "Grønn",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/788.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/788.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/788.png",
+		"code": "BOU"
 	},
 	"STO":
 	{
@@ -218,7 +234,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/794.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/794.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/794.png",
+		"code": "STO"
 	},
 	"AVI":
 	{
@@ -231,7 +248,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Gul",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/732.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/732.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/732.png",
+		"code": "AVI"
 	},
 	"SUN":
 	{
@@ -244,7 +262,8 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Gul",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/737.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/737.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/737.png",
+		"code": "SUN"
 	},
 	"NEW":
 	{
@@ -256,6 +275,7 @@
 		"keeperColorPrimary": "Grønn",
 		"keeperColorSecondary": "Svart",
 		"homeJersey": "http://www.altomfotball.no/jsport/multimedia/hjemmedrakt/97x130/737.png",
-		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/737.png"
+		"awayJersey": "http://www.altomfotball.no/jsport/multimedia/bortedrakt/97x130/737.png",
+		"code": "NEW"
 	}
 }
