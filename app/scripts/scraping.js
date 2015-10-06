@@ -26,6 +26,7 @@ app.get('/scrape', function(req, res) {
 			var matches = [];
 
 			var ref = new Firebase("https://draktoversikt.firebaseio.com/nextMatches");
+			ref.remove();
 
 			$('#sd_fixtures_table_next tbody tr').filter(function() {
 				matchJson = {
@@ -36,12 +37,14 @@ app.get('/scrape', function(req, res) {
 				
 				var data = $(this);
 
-				console.log("Hjemmelag");
-				console.log(data.children().children()[3].children[0]);
+				
 				matchJson.homeTeam = data.children().children()[3].children[0].data;
-				console.log("Bortelag");
+				// matchJson.homeTeam = matchJson.homeTeam.replace(/&nbsp;/g,'lolololo');
+				var homeTeam = matchJson.homeTeam.replace(/&nbsp;/g, 'oyoyoyo');
+				console.log(homeTeam);
 				matchJson.time = data.children().children()[4].children[0].data;
 				matchJson.awayTeam = data.children().children()[5].children[0].data;
+				matchJson.awayTeam = matchJson.awayTeam.replace(/&nbsp;/g,'lololol');
 
 				matches.push(matchJson);
 				// ref.push(matchJson);			
