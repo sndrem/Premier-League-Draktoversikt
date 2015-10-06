@@ -6,9 +6,6 @@ var express = require('express'),
 	app = express();
 
 
-app.get('/scrape', function(req, res) {
-	res.send('Hello world');
-
 	var url = "http://www.altomfotball.no/element.do?cmd=tournament&tournamentId=230&useFullUrl=false";
 
 	request(url, function(error, response, html) {
@@ -66,19 +63,12 @@ app.get('/scrape', function(req, res) {
 				matches.push(matchJson);
 				ref.push(matchJson);			
 			});
-
-			
 		}
-		// console.log(matches);
 		fs.writeFile('output.json', JSON.stringify(matches, null, 4), function(err) {
 			console.log('File was written');
+
 		})
+	console.log(matches.length + ' kamper ble lagret i databasen');
+		
 	})
 
-});
-
-app.listen('8081');
-
-console.log('App running on port 8081');
-
-exports = module.exports = app;

@@ -16,6 +16,7 @@ angular.module('draktoversiktApp')
     $scope.nextMatches = MatchFactory.getNextMatches();
 
 
+
   	$scope.allTeams = true;
 
 

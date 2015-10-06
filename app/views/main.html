@@ -1,11 +1,5 @@
 
 	<h3>Oversikt over draktfarger i PL-sesongen 15/16</h3>
-	
-	<p>Neste kamper</p>
-	<ul>
-		<li ng-repeat="match in nextMatches"><a ng-click="getTeams(match.homeTeam, match.awayTeam)" href="">{{match.homeTeam.name}} vs {{match.awayTeam.name}} - kl. {{match.time}}</a></li>
-	</ul>
-
 	<section class="search">
 		<form action="">
 			<label for="">Søk etter lag</label>
@@ -14,12 +8,37 @@
 			</div>
 
 			<div class="form-group">
-				<button class="form-control btn btn-primary" ng-click="resetTeams()">Hent alle lag</button>
+				<button class="form-control btn btn-primary" ng-click="resetTeams()">Vis alle lag</button>
 			</div>
 
 		</form>
-		
 	</section>
+	
+	<div class="row">
+		<div class="col-xs-12">
+			<p>Neste kamper</p>
+			<table class="table table-striped">
+				<thead>
+					<th>Dato</th>
+					<th>Runde</th>
+					<th>Kamp</th>
+					<th>Kanal</th>
+				</thead>
+				<tbody>
+					<tr ng-repeat="match in nextMatches">
+						<td>{{match.date}}</td>
+						<td>{{match.round}}</td>
+						<td><a href="" ng-click="getTeams(match.homeTeam, match.awayTeam)">{{match.homeTeam.name}} vs {{match.awayTeam.name}}</a></td>
+						<td>{{match.channel}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+		
+
+
+	
 	<section class="players">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-repeat="team in teams | filter:textSearch | orderBy: 'teamName'" ng-show="allTeams">
 
