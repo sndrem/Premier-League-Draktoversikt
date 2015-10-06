@@ -37,13 +37,14 @@ app.get('/scrape', function(req, res) {
 				var data = $(this);
 
 				console.log("Hjemmelag");
+				console.log(data.children().children()[3].children[0]);
 				matchJson.homeTeam = data.children().children()[3].children[0].data;
 				console.log("Bortelag");
 				matchJson.time = data.children().children()[4].children[0].data;
 				matchJson.awayTeam = data.children().children()[5].children[0].data;
 
 				matches.push(matchJson);
-				ref.push(matchJson);			
+				// ref.push(matchJson);			
 			});
 
 			
