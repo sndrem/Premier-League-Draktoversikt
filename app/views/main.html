@@ -3,7 +3,7 @@
 	
 	<p>Neste kamper</p>
 	<ul>
-		<li ng-repeat="match in nextMatches"><a ng-click="getTeams(match.homeTeam, match.awayTeam)" href="">{{match.homeTeam}} vs {{match.awayTeam}} - kl. {{match.time}}</a></li>
+		<li ng-repeat="match in nextMatches"><a ng-click="getTeams(match.homeTeam, match.awayTeam)" href="">{{match.homeTeam.name}} vs {{match.awayTeam.name}} - kl. {{match.time}}</a></li>
 	</ul>
 
 	<section class="search">
@@ -56,7 +56,7 @@
 				</div>
 		</div>
 
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-repeat="team in selectedTeams | filter:textSearch" ng-show="selectedTeams">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-repeat="team in selectedTeams | filter:textSearch | orderBy: 'priority'" ng-show="selectedTeams">
 
 				<div class="panel panel-primary">
 					<div class="panel-heading text-center">

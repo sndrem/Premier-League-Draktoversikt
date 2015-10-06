@@ -17,11 +17,7 @@ app.get('/scrape', function(req, res) {
 
 			var homeTeam, awayTeam, time;
 			
-			var matchJson = {
-						homeTeam: "",
-						awayTeam: "",
-						time: ""
-				};
+			var matchJson = {};
 
 			var matches = [];
 
@@ -30,24 +26,31 @@ app.get('/scrape', function(req, res) {
 
 			$('#sd_fixtures_table_next tbody tr').filter(function() {
 				matchJson = {
-						homeTeam: "",
-						awayTeam: "",
-						time: ""
+						homeTeam: {
+							name: "",
+							priority: ""
+						},
+						awayTeam: {
+							name: "",
+							priority: ""
+						},
+						time: "",
 					};
 				
 				var data = $(this);
 
 				
-				matchJson.homeTeam = data.children().children()[3].children[0].data;
-				// matchJson.homeTeam = matchJson.homeTeam.replace(/&nbsp;/g,'lolololo');
-				var homeTeam = matchJson.homeTeam.replace(/&nbsp;/g, 'oyoyoyo');
-				console.log(homeTeam);
+				matchJson.homeTeam.name = data.children().children()[3].children[0].data.replace(/\s/g,' ');;
+				matchJson.homeTeam.priority = 1;
+				
+
 				matchJson.time = data.children().children()[4].children[0].data;
-				matchJson.awayTeam = data.children().children()[5].children[0].data;
-				matchJson.awayTeam = matchJson.awayTeam.replace(/&nbsp;/g,'lololol');
+
+				matchJson.awayTeam.name = data.children().children()[5].children[0].data.replace(/\s/g,' ');
+				matchJson.awayTeam.priority = 2;
 
 				matches.push(matchJson);
-				// ref.push(matchJson);			
+				ref.push(matchJson);			
 			});
 
 			
