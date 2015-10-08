@@ -14,9 +14,10 @@
 		</form>
 	</section>
 	
-	<div class="row">
+	<div class="row" ng-show="nextMatches">
 		<div class="col-xs-12">
-			<p>Neste kamper</p>
+			<h4>Neste kamper</h4>
+			<small>Kamper sist hentet: {{dateUpdated | date:'medium'}}</small>
 			<table class="table table-striped">
 				<thead>
 					<th>Dato</th>

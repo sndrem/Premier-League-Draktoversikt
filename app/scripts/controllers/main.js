@@ -9,13 +9,14 @@
  */
 angular.module('draktoversiktApp')
   .controller('MainCtrl', ['$scope', '$firebaseArray', 'TeamFactory', 'MatchFactory' ,function ($scope, $firebaseArray, TeamFactory, MatchFactory) {
-   	
-    $scope.teams = TeamFactory.getTeams();
 
+    $scope.teams = TeamFactory.getTeams();
 
     $scope.nextMatches = MatchFactory.getNextMatches();
 
-
+    MatchFactory.getTimeOfUpdate().then(function(data) {
+       $scope.dateUpdated = data;
+    })
 
   	$scope.allTeams = true;
 
@@ -25,17 +26,13 @@ angular.module('draktoversiktApp')
     */
   	$scope.getTeams = function(homeTeam, awayTeam) {
 
-      console.log(homeTeam);
-
       var homeTeamName = checkTeam(homeTeam.name);
       var awayTeamName = checkTeam(awayTeam.name);
-      
 
       var teams = $scope.teams;
       $scope.allTeams = false;
       $scope.selectedTeams = [];
       var selectedTeams = [];
-      
 
       for(var i in teams) {
         if(teams[i].teamName === homeTeamName) {
@@ -54,9 +51,7 @@ angular.module('draktoversiktApp')
           selectedTeams[i++] = selectedTeams;
         }
       }
-      console.log(selectedTeams);
       $scope.selectedTeams = selectedTeams;
-        		
   	};
 
     /*

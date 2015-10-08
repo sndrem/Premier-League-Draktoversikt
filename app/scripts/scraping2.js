@@ -7,8 +7,8 @@ var express = require('express'),
 
 
 	var url = "http://www.altomfotball.no/element.do?cmd=tournament&tournamentId=230&useFullUrl=false";
-	var ref = new Firebase("https://draktoversikt.firebaseio.com/nextMatches");
-	ref.remove();
+	var ref = new Firebase("https://draktoversikt.firebaseio.com");
+	ref.child('nextMatches').remove();
 
 	request(url, function(error, response, html) {
 		if(!error) {
@@ -19,6 +19,12 @@ var express = require('express'),
 			var matchJson = {};
 
 			var matches = [];
+
+			var todaysDate = new Date();
+
+			ref.child('date').update({
+				dateUpdated: todaysDate.getTime()
+			});
 
 
 			$('#sd_fixtures_table_next tbody tr').filter(function() {
@@ -61,7 +67,7 @@ var express = require('express'),
 				matchJson.awayTeam.priority = 2;
 
 				matches.push(matchJson);
-				ref.push(matchJson, function(err) {
+				ref.child('nextMatches').push(matchJson, function(err) {
 					// Når vi har pushet alle kampene, avslutt scriptet
 					process.exit();
 				});

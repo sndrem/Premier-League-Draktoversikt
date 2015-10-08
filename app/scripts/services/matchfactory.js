@@ -8,18 +8,27 @@
  * Factory in the draktoversiktApp.
  */
 angular.module('draktoversiktApp')
-  .factory('MatchFactory', ['$firebaseArray', function ($firebaseArray) {
+  .factory('MatchFactory', ['$firebaseArray','$q', function ($firebaseArray, $q) {
     // Service logic
     // ...
 
-    var FIREBASE_MATCHES = "https://draktoversikt.firebaseio.com/nextMatches";
-    var ref = new Firebase(FIREBASE_MATCHES);
-    
+    var FIREBASE = "https://draktoversikt.firebaseio.com";
+    var ref = new Firebase(FIREBASE);
 
     // Public API here
     return {
       getNextMatches: function () {
-        return $firebaseArray(ref);
+        return $firebaseArray(ref.child('nextMatches'));
+      },
+
+      getTimeOfUpdate: function() {
+        var def = $q.defer();
+        var timeOfUpdate = '';
+        ref.child('date').on('value', function(snapshot) {
+          timeOfUpdate = snapshot.val().dateUpdated;
+          def.resolve(timeOfUpdate);
+        })
+        return def.promise;
       }
     };
   }]);
