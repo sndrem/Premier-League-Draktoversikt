@@ -5,7 +5,7 @@ var express = require('express'),
 	Firebase = require('firebase'),
 	app = express();
 
-
+	var altomfotball = "www.altomfotball.no/";
 	var url = "http://www.altomfotball.no/element.do?cmd=tournament&tournamentId=230&useFullUrl=false";
 	var ref = new Firebase("https://draktoversikt.firebaseio.com");
 	ref.child('nextMatches').remove();
@@ -41,7 +41,8 @@ var express = require('express'),
 						channel: "",
 						round: "",
 						date: "",
-						league: ""
+						league: "",
+						matchUrl: ""
 					};
 
 				var data = $(this);
@@ -62,6 +63,9 @@ var express = require('express'),
 				matchJson.homeTeam.priority = 1;
 
 				matchJson.time = data.children().children()[4].children[0].data;
+				// matchJson.matchUrl = data.children().children()[4].children[0].data;
+				matchJson.matchUrl = altomfotball + data.children().children()[4].children[0].parent.attribs.href;
+				console.log(data.children().children()[4].children[0].parent.attribs.href);
 
 				matchJson.awayTeam.name = data.children().children()[5].children[0].data.replace(/\s/g,' ');
 				matchJson.awayTeam.priority = 2;

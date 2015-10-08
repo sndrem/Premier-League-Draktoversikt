@@ -14,7 +14,7 @@
 		</form>
 	</section>
 	
-	<div class="row" ng-show="nextMatches">
+	<div class="row">
 		<div class="col-xs-12">
 			<h4>Neste kamper</h4>
 			<small>Kamper sist hentet: {{dateUpdated | date:'medium'}}</small>
@@ -31,6 +31,7 @@
 						<td>{{match.round}}</td>
 						<td><a href="" ng-click="getTeams(match.homeTeam, match.awayTeam)">{{match.homeTeam.name}} vs {{match.awayTeam.name}}</a></td>
 						<td>{{match.channel}}</td>
+						<td><a ng-href="//{{match.matchUrl}}" target="_blank">Kampside</a></td>
 					</tr>
 				</tbody>
 			</table>

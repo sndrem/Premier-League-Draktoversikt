@@ -12,7 +12,8 @@
         "channel": "TV 2 Sport Premium",
         "round": "9. runde",
         "date": "17.10.2015",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773769&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -27,7 +28,8 @@
         "channel": "",
         "round": "9. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773762&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -42,7 +44,8 @@
         "channel": "",
         "round": "9. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773768&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -57,7 +60,8 @@
         "channel": "",
         "round": "9. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773766&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -72,7 +76,8 @@
         "channel": "",
         "round": "9. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773771&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -87,7 +92,8 @@
         "channel": "",
         "round": "9. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773763&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -102,7 +108,8 @@
         "channel": "",
         "round": "9. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773770&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -117,7 +124,8 @@
         "channel": "TV 2 Sport Premium",
         "round": "9. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773767&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -132,7 +140,8 @@
         "channel": "TV 2 Sport Premium",
         "round": "9. runde",
         "date": "18.10.2015",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773764&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -147,6 +156,7 @@
         "channel": "TV 2 Sport Premium",
         "round": "9. runde",
         "date": "19.10.2015",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "www.altomfotball.no/element.do?cmd=match&matchId=773765&tournamentId=230&seasonId=337&useFullUrl=false"
     }
 ]
