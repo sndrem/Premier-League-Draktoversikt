@@ -13,7 +13,7 @@
 
 		</form>
 	</section>
-	
+
 	<div class="row">
 		<div class="col-xs-12">
 			<h4>Neste kamper</h4>
@@ -22,6 +22,7 @@
 				<thead>
 					<th>Dato</th>
 					<th>Runde</th>
+					<th>Avspark kl.</th>
 					<th>Kamp</th>
 					<th>Kanal</th>
 				</thead>
@@ -29,6 +30,7 @@
 					<tr ng-repeat="match in nextMatches">
 						<td>{{match.date}}</td>
 						<td>{{match.round}}</td>
+						<td>{{match.time}}</td>
 						<td><a href="" ng-click="getTeams(match.homeTeam, match.awayTeam)">{{match.homeTeam.name}} vs {{match.awayTeam.name}}</a></td>
 						<td>{{match.channel}}</td>
 						<td><a ng-href="//{{match.matchUrl}}" target="_blank">Kampside</a></td>
@@ -37,10 +39,10 @@
 			</table>
 		</div>
 	</div>
-		
 
 
-	
+
+
 	<section class="players">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-repeat="team in teams | filter:textSearch | orderBy: 'teamName'" ng-show="allTeams">
 
@@ -51,7 +53,7 @@
 						<img ng-src="{{team.awayJersey}}" alt="">
 					</div>
 					<div class="panel-body">
-						
+
 						<p><b>Arena:</b> {{team.arena}}</p>
 						<p>Hjemmedrakter</p>
 						<dl>
@@ -72,7 +74,6 @@
 							<dt>Keeperfarge - borte</dt>
 							<dd>{{team.keeperColorSecondary}}</dd>
 						</dl>
-						
 					</div>
 				</div>
 		</div>
