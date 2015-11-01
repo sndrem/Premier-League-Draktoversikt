@@ -5,7 +5,7 @@ var express = require('express'),
 	Firebase = require('firebase'),
 	app = express();
 
-	var altomfotball = "www.altomfotball.no/";
+	var altomfotball = "altomfotball.no/";
 	var url = "http://www.altomfotball.no/element.do?cmd=tournament&tournamentId=230&useFullUrl=false";
 	var ref = new Firebase("https://draktoversikt.firebaseio.com");
 	ref.child('nextMatches').remove();
