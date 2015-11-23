@@ -8,7 +8,7 @@
  * Controller of the draktoversiktApp
  */
 angular.module('draktoversiktApp')
-  .controller('MainCtrl', ['$scope', '$firebaseArray', 'TeamFactory', 'MatchFactory' ,function ($scope, $firebaseArray, TeamFactory, MatchFactory) {
+  .controller('MainCtrl', ['$scope', '$firebaseArray', 'TeamFactory', 'MatchFactory', '$q' ,function ($scope, $firebaseArray, TeamFactory, MatchFactory, $q) {
 
     $scope.teams = TeamFactory.getTeams();
 
@@ -53,6 +53,31 @@ angular.module('draktoversiktApp')
       }
       $scope.selectedTeams = selectedTeams;
   	};
+
+    $scope.openTwitter = function(homeTeam, awayTeam) {
+      homeTeam = checkTeam(homeTeam);
+      awayTeam = checkTeam(awayTeam);
+      var twitter = "http://twitter.com/";
+      
+      getTwitterAccount(homeTeam, awayTeam).then(function(data) {
+        for(var i in data) {
+          window.open(twitter + data[i], '_blank');
+        }
+      });      
+    }
+
+    function getTwitterAccount(homeTeam, awayTeam) {
+      var def = $q.defer();
+      var accounts = [];
+      angular.forEach($scope.teams, function(value, key) {
+        if(value.teamName === homeTeam || value.teamName === awayTeam) {
+         accounts.push(value.twitter);
+         
+        } 
+      })
+      def.resolve(accounts);
+      return def.promise;
+    }
 
     /*
       Viser alle lagene.

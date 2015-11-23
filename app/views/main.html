@@ -34,6 +34,7 @@
 						<td><a href="" ng-click="getTeams(match.homeTeam, match.awayTeam)">{{match.homeTeam.name}} vs {{match.awayTeam.name}}</a></td>
 						<td>{{match.channel}}</td>
 						<td><a href="http://{{match.matchUrl}}" target="_blank">Kampside</a></td>
+						<td><a href="" ng-click="openTwitter(match.homeTeam.name, match.awayTeam.name)"><i class="fa fa-lg fa-twitter" ></i></a></td>
 					</tr>
 				</tbody>
 			</table>
@@ -55,6 +56,7 @@
 					<div class="panel-body">
 
 						<p><b>Arena:</b> {{team.arena}}</p>
+						<p><i class="fa fa-lg fa-twitter"></i><a ng-href="http://twitter.com/{{team.twitter}}" target="_blank"> twitter.com/{{team.twitter}}</a></p>
 						<p>Hjemmedrakter</p>
 						<dl>
 							<dt>Hjemmefarge - primær</dt>
@@ -89,6 +91,7 @@
 					<div class="panel-body">
 						
 						<p><b>Arena:</b> {{team.arena}}</p>
+						<p><i class="fa fa-lg fa-twitter"></i><a ng-href="http://twitter.com/{{team.twitter}}" target="_blank"> twitter.com/{{team.twitter}}</a></p>
 						<p>Hjemmedrakter</p>
 						<dl>
 							<dt>Hjemmefarge - primær</dt>
