@@ -85,6 +85,7 @@ angular.module('draktoversiktApp')
   	$scope.resetTeams = function() {
   		$scope.allTeams = true;
   		$scope.selectedTeams = [];
+      $scope.textSearch = "";
   	};
 
     /*
