@@ -1,37 +1,23 @@
 [
     {
         "homeTeam": {
-            "name": "Tottenham",
+            "name": "Stoke",
             "priority": 1
         },
         "awayTeam": {
-            "name": "Liverpool",
+            "name": "Man. United",
             "priority": 2
         },
         "time": "13.45",
         "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
-        "date": "17.10.2015",
-        "league": "Premier League"
+        "round": "18. runde",
+        "date": "26.12.2015",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773856&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "Chelsea",
-            "priority": 1
-        },
-        "awayTeam": {
             "name": "Aston Villa",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
-        "date": " ",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
-            "name": "Crystal Palace",
             "priority": 1
         },
         "awayTeam": {
@@ -39,100 +25,43 @@
             "priority": 2
         },
         "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
+        "channel": "TV 2 Sumo",
+        "round": "18. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773853&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "Everton",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Man. United",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
-        "date": " ",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
-            "name": "Man. City",
-            "priority": 1
-        },
-        "awayTeam": {
             "name": "Bournemouth",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
-        "date": " ",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
-            "name": "Southampton",
             "priority": 1
         },
         "awayTeam": {
-            "name": "Leicester",
+            "name": "Crystal Palace",
             "priority": 2
         },
         "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
+        "channel": "TV 2 Sumo",
+        "round": "18. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773859&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "West Bromwich",
+            "name": "Chelsea",
             "priority": 1
         },
         "awayTeam": {
-            "name": "Sunderland",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
-        "date": " ",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
             "name": "Watford",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Arsenal",
             "priority": 2
         },
-        "time": "18.30",
-        "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
+        "time": "16.00",
+        "channel": "TV 2 Sumo",
+        "round": "18. runde",
         "date": " ",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
-            "name": "Newcastle",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Norwich",
-            "priority": 2
-        },
-        "time": "17.00",
-        "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
-        "date": "18.10.2015",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773857&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -140,13 +69,94 @@
             "priority": 1
         },
         "awayTeam": {
-            "name": "Stoke",
+            "name": "West Bromwich",
             "priority": 2
         },
-        "time": "21.00",
+        "time": "16.00",
+        "channel": "TV 2 Sumo",
+        "round": "18. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773861&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Liverpool",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Leicester",
+            "priority": 2
+        },
+        "time": "16.00",
         "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
-        "date": "19.10.2015",
-        "league": "Premier League"
+        "round": "18. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773858&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Tottenham",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Norwich",
+            "priority": 2
+        },
+        "time": "16.00",
+        "channel": "TV 2 Sport Premium 2",
+        "round": "18. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773852&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Man. City",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Sunderland",
+            "priority": 2
+        },
+        "time": "16.00",
+        "channel": "TV 2 Sport Premium 3",
+        "round": "18. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773854&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Newcastle",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Everton",
+            "priority": 2
+        },
+        "time": "18.30",
+        "channel": "TV 2 Sport Premium",
+        "round": "18. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773855&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Southampton",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Arsenal",
+            "priority": 2
+        },
+        "time": "20.45",
+        "channel": "TV 2 Sport Premium",
+        "round": "18. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773860&tournamentId=230&seasonId=337&useFullUrl=false"
     }
 ]

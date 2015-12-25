@@ -21,8 +21,9 @@ var express = require('express'),
 			var matches = [];
 
 			var todaysDate = new Date();
+			console.log(todaysDate);
 
-			ref.child('date').update({
+			ref.child('date').set({
 				dateUpdated: todaysDate.getTime()
 			});
 
