@@ -1,7 +1,7 @@
 [
     {
         "homeTeam": {
-            "name": "Tottenham",
+            "name": "West Ham",
             "priority": 1
         },
         "awayTeam": {
@@ -10,13 +10,30 @@
         },
         "time": "13.45",
         "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
-        "date": "17.10.2015",
-        "league": "Premier League"
+        "round": "20. runde",
+        "date": "02.01.2016",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773876&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "Chelsea",
+            "name": "Arsenal",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Newcastle",
+            "priority": 2
+        },
+        "time": "16.00",
+        "channel": "TV 2 Sport Premium",
+        "round": "20. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773872&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Sunderland",
             "priority": 1
         },
         "awayTeam": {
@@ -24,44 +41,47 @@
             "priority": 2
         },
         "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
+        "channel": "Opptak SP kl. 21.30",
+        "round": "20. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773880&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "Crystal Palace",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "West Ham",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
-        "date": " ",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
-            "name": "Everton",
-            "priority": 1
-        },
-        "awayTeam": {
             "name": "Man. United",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Swansea",
             "priority": 2
         },
         "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
+        "channel": "Opptak SP 2 kl. 20.30",
+        "round": "20. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773879&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "Man. City",
+            "name": "Norwich",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Southampton",
+            "priority": 2
+        },
+        "time": "16.00",
+        "channel": "Opptak SP 2 kl. 22.30",
+        "round": "20. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773877&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Leicester",
             "priority": 1
         },
         "awayTeam": {
@@ -69,25 +89,11 @@
             "priority": 2
         },
         "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
+        "channel": "Opptak SP 3 kl. 20.30",
+        "round": "20. runde",
         "date": " ",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
-            "name": "Southampton",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Leicester",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
-        "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773874&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -95,14 +101,15 @@
             "priority": 1
         },
         "awayTeam": {
-            "name": "Sunderland",
+            "name": "Stoke",
             "priority": 2
         },
         "time": "16.00",
-        "channel": "",
-        "round": "9. runde",
+        "channel": "Opptak SP 3 kl. 22.30",
+        "round": "20. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773875&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
@@ -110,43 +117,46 @@
             "priority": 1
         },
         "awayTeam": {
-            "name": "Arsenal",
+            "name": "Man. City",
             "priority": 2
         },
         "time": "18.30",
         "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
+        "round": "20. runde",
         "date": " ",
-        "league": "Premier League"
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773881&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "Newcastle",
+            "name": "Crystal Palace",
             "priority": 1
         },
         "awayTeam": {
-            "name": "Norwich",
+            "name": "Chelsea",
+            "priority": 2
+        },
+        "time": "14.30",
+        "channel": "TV 2 Sport Premium",
+        "round": "20. runde",
+        "date": "03.01.2016",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773878&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Everton",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Tottenham",
             "priority": 2
         },
         "time": "17.00",
         "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
-        "date": "18.10.2015",
-        "league": "Premier League"
-    },
-    {
-        "homeTeam": {
-            "name": "Swansea",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Stoke",
-            "priority": 2
-        },
-        "time": "21.00",
-        "channel": "TV 2 Sport Premium",
-        "round": "9. runde",
-        "date": "19.10.2015",
-        "league": "Premier League"
+        "round": "20. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773873&tournamentId=230&seasonId=337&useFullUrl=false"
     }
 ]
