@@ -1,162 +1,162 @@
 [
     {
         "homeTeam": {
-            "name": "West Ham",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Liverpool",
-            "priority": 2
-        },
-        "time": "13.45",
-        "channel": "TV 2 Sport Premium",
-        "round": "20. runde",
-        "date": "02.01.2016",
-        "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773876&tournamentId=230&seasonId=337&useFullUrl=false"
-    },
-    {
-        "homeTeam": {
-            "name": "Arsenal",
-            "priority": 1
-        },
-        "awayTeam": {
             "name": "Newcastle",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "TV 2 Sport Premium",
-        "round": "20. runde",
-        "date": " ",
-        "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773872&tournamentId=230&seasonId=337&useFullUrl=false"
-    },
-    {
-        "homeTeam": {
-            "name": "Sunderland",
             "priority": 1
         },
         "awayTeam": {
-            "name": "Aston Villa",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "Opptak SP kl. 21.30",
-        "round": "20. runde",
-        "date": " ",
-        "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773880&tournamentId=230&seasonId=337&useFullUrl=false"
-    },
-    {
-        "homeTeam": {
             "name": "Man. United",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Swansea",
             "priority": 2
         },
-        "time": "16.00",
-        "channel": "Opptak SP 2 kl. 20.30",
-        "round": "20. runde",
-        "date": " ",
-        "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773879&tournamentId=230&seasonId=337&useFullUrl=false"
-    },
-    {
-        "homeTeam": {
-            "name": "Norwich",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Southampton",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "Opptak SP 2 kl. 22.30",
-        "round": "20. runde",
-        "date": " ",
-        "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773877&tournamentId=230&seasonId=337&useFullUrl=false"
-    },
-    {
-        "homeTeam": {
-            "name": "Leicester",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Bournemouth",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "Opptak SP 3 kl. 20.30",
-        "round": "20. runde",
-        "date": " ",
-        "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773874&tournamentId=230&seasonId=337&useFullUrl=false"
-    },
-    {
-        "homeTeam": {
-            "name": "West Bromwich",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Stoke",
-            "priority": 2
-        },
-        "time": "16.00",
-        "channel": "Opptak SP 3 kl. 22.30",
-        "round": "20. runde",
-        "date": " ",
-        "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773875&tournamentId=230&seasonId=337&useFullUrl=false"
-    },
-    {
-        "homeTeam": {
-            "name": "Watford",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Man. City",
-            "priority": 2
-        },
-        "time": "18.30",
+        "time": "20.45",
         "channel": "TV 2 Sport Premium",
-        "round": "20. runde",
-        "date": " ",
+        "round": "21. runde",
+        "date": "12.01.2016",
         "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773881&tournamentId=230&seasonId=337&useFullUrl=false"
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773888&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
+            "name": "Aston Villa",
+            "priority": 1
+        },
+        "awayTeam": {
             "name": "Crystal Palace",
-            "priority": 1
-        },
-        "awayTeam": {
-            "name": "Chelsea",
             "priority": 2
         },
-        "time": "14.30",
-        "channel": "TV 2 Sport Premium",
-        "round": "20. runde",
-        "date": "03.01.2016",
+        "time": "20.45",
+        "channel": "TV 2 Sport Premium 2",
+        "round": "21. runde",
+        "date": " ",
         "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773878&tournamentId=230&seasonId=337&useFullUrl=false"
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773884&tournamentId=230&seasonId=337&useFullUrl=false"
     },
     {
         "homeTeam": {
-            "name": "Everton",
+            "name": "Bournemouth",
             "priority": 1
         },
         "awayTeam": {
-            "name": "Tottenham",
+            "name": "West Ham",
             "priority": 2
         },
-        "time": "17.00",
-        "channel": "TV 2 Sport Premium",
-        "round": "20. runde",
+        "time": "20.45",
+        "channel": "TV 2 Sport Premium 3",
+        "round": "21. runde",
         "date": " ",
         "league": "Premier League",
-        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773873&tournamentId=230&seasonId=337&useFullUrl=false"
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773882&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Chelsea",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "West Bromwich",
+            "priority": 2
+        },
+        "time": "20.45",
+        "channel": "TV 2 Sumo",
+        "round": "21. runde",
+        "date": "13.01.2016",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773887&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Southampton",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Watford",
+            "priority": 2
+        },
+        "time": "20.45",
+        "channel": "TV 2 Sumo",
+        "round": "21. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773890&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Stoke",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Norwich",
+            "priority": 2
+        },
+        "time": "20.45",
+        "channel": "TV 2 Sumo",
+        "round": "21. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773886&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Swansea",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Sunderland",
+            "priority": 2
+        },
+        "time": "20.45",
+        "channel": "TV 2 Sumo",
+        "round": "21. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773883&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Man. City",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Everton",
+            "priority": 2
+        },
+        "time": "20.45",
+        "channel": "TV 2 Sport Premium 3",
+        "round": "21. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773889&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Liverpool",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Arsenal",
+            "priority": 2
+        },
+        "time": "21.00",
+        "channel": "TV 2 Sport Premium",
+        "round": "21. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773885&tournamentId=230&seasonId=337&useFullUrl=false"
+    },
+    {
+        "homeTeam": {
+            "name": "Tottenham",
+            "priority": 1
+        },
+        "awayTeam": {
+            "name": "Leicester",
+            "priority": 2
+        },
+        "time": "21.00",
+        "channel": "TV 2 Sport Premium 2",
+        "round": "21. runde",
+        "date": " ",
+        "league": "Premier League",
+        "matchUrl": "altomfotball.no/element.do?cmd=match&matchId=773891&tournamentId=230&seasonId=337&useFullUrl=false"
     }
 ]

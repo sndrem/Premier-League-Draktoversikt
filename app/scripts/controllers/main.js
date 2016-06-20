@@ -8,7 +8,7 @@
  * Controller of the draktoversiktApp
  */
 angular.module('draktoversiktApp')
-  .controller('MainCtrl', ['$scope', '$firebaseArray', 'TeamFactory', 'MatchFactory', '$q' ,function ($scope, $firebaseArray, TeamFactory, MatchFactory, $q) {
+  .controller('MainCtrl', ['$scope', '$firebaseArray', 'TeamFactory', 'MatchFactory', '$q' ,function($scope, $firebaseArray, TeamFactory, MatchFactory, $q) {
 
     $scope.teams = TeamFactory.getTeams();
 

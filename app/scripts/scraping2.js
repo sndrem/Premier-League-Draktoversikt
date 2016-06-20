@@ -66,7 +66,7 @@ var express = require('express'),
 				matchJson.time = data.children().children()[4].children[0].data;
 				// matchJson.matchUrl = data.children().children()[4].children[0].data;
 				matchJson.matchUrl = altomfotball + data.children().children()[4].children[0].parent.attribs.href;
-				
+				console.log(matchJson.matchUrl);
 
 				matchJson.awayTeam.name = data.children().children()[5].children[0].data.replace(/\s/g,' ');
 				matchJson.awayTeam.priority = 2;
